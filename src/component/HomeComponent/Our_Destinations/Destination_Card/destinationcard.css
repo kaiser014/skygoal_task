@@ -1,0 +1,66 @@
+.d-card-content{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0 10px;
+}
+.d-card-image img{
+    width: 100%;
+}
+.d-card-details{
+    padding: 20px;
+}
+.university-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.university-details p{
+    font-size: 14px;
+}
+.ud-option{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ud-option svg{
+    font-size: 18px;
+    transform: rotate(90deg);
+}
+.d-card-image{
+    position: relative;
+}
+.d-card-position{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+.dcard-rating-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.d-card-rating{
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.d-card-rating svg{
+    color: #EBD402;
+}
+.d-card-cat{
+    background-color: #232323;
+    padding: 12px 24px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
