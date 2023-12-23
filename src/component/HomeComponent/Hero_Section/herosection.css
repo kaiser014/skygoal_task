@@ -1,0 +1,38 @@
+.hero-section{
+    background-image: url(/public/assets/images/herobg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0;
+}
+.hero-section-content{}
+.hero-section-content .hero-subtitle h6{
+    font-size: 20px;
+    color: #1F2027;
+    font-weight: 600;
+}
+.hero-section-content .hero-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+.hero-section-content .hero-title h1 span{
+    font-weight: 500;
+}
+.hero-section-content .hero-description{
+    font-size: 16px;
+    color: #505C59;
+    padding: 25px 0;
+}
+.hero-section-content .herosection-button{
+    padding-top: 10px;
+}
+/* .herosection-btn{
+    padding: 16px 38px;
+} */
+.hero-section-image {
+    text-align: right;
+}
+.hero-section-image img{
+    width: 80%;
+}
