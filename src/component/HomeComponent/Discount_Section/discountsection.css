@@ -1,0 +1,134 @@
+.discount-section{
+    background-image: url(/public/assets/images/discountbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    padding: 80px 0;
+}
+.ds-content h6{
+    font-size: 20px;
+    color: #1F2027;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.ds-content h2{
+    font-size: 40px;
+    color: #1F2027;
+    font-weight: 700;
+}
+.ds-content h2 span{
+    display: block;
+    font-size: 30px;
+    color: #1F2027;
+    font-weight: 500;
+}
+.ds-content-list ul{
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.ds-student-image{
+    text-align: end;
+}
+.ds-student-image img{
+    width: 80%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .discount-section {
+        background-image: none;
+        padding: 30px 0;
+    }
+    .ds-content h6 {
+        font-size: 18px;
+    }
+    .ds-content h2 {
+        font-size: 26px;
+    }
+    .ds-content h2 span{
+        font-size: 22px;
+    }
+    .ds-student-image {
+        text-align: center;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .discount-section {
+        background-image: none;
+        padding: 50px 0;
+    }
+    .ds-content h6 {
+        font-size: 18px;
+    }
+    .ds-content h2 {
+        font-size: 36px;
+    }
+    .ds-content h2 span{
+        font-size: 28px;
+    }
+    .ds-student-image {
+        text-align: center;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .discount-section {
+        background-image: url(/public/assets/images/discountbg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:auto;
+        padding: 70px 0;
+    }
+    .ds-content h6 {
+        font-size: 18px;
+    }
+    .ds-content h2 {
+        font-size: 24px;
+    }
+    .ds-content h2 span{
+        font-size: 20px;
+    }
+    .ds-student-image {
+        text-align: center;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .discount-section {
+        padding: 80px 0;
+    }
+    .ds-content h6 {
+        font-size: 18px;
+    }
+    .ds-content h2 {
+        font-size: 32px;
+    }
+    .ds-content h2 span{
+        font-size: 24px;
+    }
+    .ds-student-image {
+        text-align: right;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .ds-content h6 {
+        font-size: 20px;
+    }
+    .ds-content h2 {
+        font-size: 36px;
+    }
+    .ds-content h2 span{
+        font-size: 28px;
+    }
+ }
+  

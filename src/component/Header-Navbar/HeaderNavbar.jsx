@@ -22,12 +22,22 @@ const HeaderNavbar = () => {
                         <Nav.Link as={Link} to={'#pricing'}>Pricing</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Nav className="ms-auto">
+                <Nav className="ms-auto large-header-buttons">
                     <Nav.Link as={Link} to={'#offer'} className='header-offer-btn'>Offer</Nav.Link>
                 </Nav>
-                <Button className='btn primary-bgcolor primary-btn'>Courses</Button>
+                <Button className='btn primary-bgcolor primary-btn large-header-buttons'>Courses</Button>
             </Container>
         </Navbar>
+        <div className='mobile-header-button'>
+            <div className='container'>
+                <div className='mh-buttons'>
+                    <Nav>
+                        <Nav.Link as={Link} to={'#offer'} className='header-offer-btn'>Offer</Nav.Link>
+                    </Nav>
+                    <Button className='btn primary-bgcolor primary-btn'>Courses</Button>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }

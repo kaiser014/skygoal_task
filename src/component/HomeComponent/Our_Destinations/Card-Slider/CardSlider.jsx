@@ -1,22 +1,51 @@
 import React from 'react';
 import Slider from "react-slick";
-
+import DestinationCard from '../Destination_Card/DestinationCard';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import './cardslider.css';
-import DestinationCard from '../Destination_Card/DestinationCard';
-// import { Col, Row } from 'react-bootstrap';
 
 const CardSlider = () => {
     const settings = {
         centerMode: true,
-        //centerPadding: $('.slick').find('.d-card-slider').outerWidth() / 2,
         dots: true,
+        arrows:false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
       };
   return (
     <div className='d-card-slider'>
@@ -34,13 +63,6 @@ const CardSlider = () => {
             <DestinationCard imageurl={process.env.PUBLIC_URL + '/assets/images/card-image3.png'} universityname='Nanyang Technology University' universityaddress='Nanyang Ave, Singapur'/>
           </div>
         </Slider>
-        {/* <div>
-            <Row>
-              <Col md={3}>
-                <DestinationCard />
-              </Col>
-            </Row>
-        </div> */}
     </div>
   )
 }

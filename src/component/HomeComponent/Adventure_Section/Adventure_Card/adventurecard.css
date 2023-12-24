@@ -19,3 +19,48 @@
 .card-content p{
     font-size: 16px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .adventure-card-content {
+        margin: 40px 10px;
+    }
+    .circle, .half-circle{
+        display: none;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .adventure-card-content {
+        margin: 40px 30px;
+    }
+    .circle, .half-circle{
+        display: none;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .adventure-card-content {
+        margin: 20px 0px;
+        padding: 20px 18px;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .adventure-card-content {
+        margin: 20px 50px;
+        padding: 20px 20px;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .adventure-card-content {
+        margin: 20px 100px;
+        padding: 20px 20px;
+    }
+ } 
